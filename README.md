@@ -232,6 +232,8 @@ These tests can be run with
 go test
 ```
 
+These tests can be run with github actions with the default Go settings [go.yml](./.github/workflows/go.yml)
+
 Although including unit tests is useful and good practice, in reality if we follow good Domain Driven Design (DDD) principles I would not expect the controllers to have much logic within them.
 
 
